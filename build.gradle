@@ -14,6 +14,12 @@ dependencies {
     implementation 'io.quarkus:quarkus-arc'
     implementation 'commons-io:commons-io:2.15.1'
     implementation 'org.bouncycastle:bcpkix-jdk18on:1.76'
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
 }
